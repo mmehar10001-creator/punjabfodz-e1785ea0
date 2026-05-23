@@ -72,14 +72,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Punjab Foods — Pulao & Kabab, Rawalpindi" },
+      { name: "description", content: "Authentic Pulao, Roast, Kabab and catering Degs from Punjab Foods, Rawalpindi." },
+      { name: "author", content: "Punjab Foods" },
+      { property: "og:title", content: "Punjab Foods" },
+      { property: "og:description", content: "Authentic Pulao & Kabab — Rawalpindi" },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
