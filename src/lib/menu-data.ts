@@ -59,6 +59,8 @@ export const degMenu: { name: string; qty: string; price: string }[] = [
 
 export const contact = {
   phones: ["051-5706222", "0343-7117361", "0302-5527361"],
+  whatsapp: "0343-7117361",
+  whatsappLink: "https://wa.me/923437117361?text=Hello!%20I%27d%20like%20to%20place%20an%20order%20at%20Punjab%20Foods.",
   address: "Sirsyed Chowk, Tipu Road, Near Zafar Honda Service, Rawalpindi.",
   name: "Punjab Foods — Pulao & Kabab",
 };
