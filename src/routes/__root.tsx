@@ -75,10 +75,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Punjab Foods — Pulao & Kabab, Rawalpindi" },
       { name: "description", content: "Authentic Pulao, Roast, Kabab and catering Degs from Punjab Foods, Rawalpindi." },
       { name: "author", content: "Punjab Foods" },
-      { property: "og:title", content: "Punjab Foods" },
-      { property: "og:description", content: "Authentic Pulao & Kabab — Rawalpindi" },
+      { property: "og:title", content: "Punjab Foods — Pulao & Kabab, Rawalpindi" },
+      { property: "og:description", content: "Authentic Pulao, Roast, Kabab and catering Degs from Punjab Foods, Rawalpindi." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Punjab Foods — Pulao & Kabab, Rawalpindi" },
+      { name: "twitter:description", content: "Authentic Pulao, Roast, Kabab and catering Degs from Punjab Foods, Rawalpindi." },
     ],
     links: [
       {
