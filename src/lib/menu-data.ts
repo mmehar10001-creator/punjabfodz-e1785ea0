@@ -1,5 +1,9 @@
-import heroPulao from "@/assets/hero-pulao.jpg";
-import pulaoSpecial from "@/assets/chicken-pulao-special.jpg";
+import pulaoSingleNoKabab from "@/assets/pulao-single-nokabab.jpg";
+import pulaoSingleChoice from "@/assets/pulao-single-choice.jpg";
+import pulaoSingle from "@/assets/pulao-single.jpg";
+import pulaoSpecialNoKabab from "@/assets/pulao-special-nokabab.jpg";
+import pulaoSpecialChoice from "@/assets/pulao-special-choice.jpg";
+import pulaoSpecial from "@/assets/pulao-special.jpg";
 import channaPulao from "@/assets/channa-pulao.jpg";
 import simplePulao from "@/assets/simple-pulao.jpg";
 import pulaoKabab from "@/assets/pulao-kabab.jpg";
@@ -20,11 +24,11 @@ export const menu: MenuSection[] = [
     title: "Chicken Pulao",
     urdu: "چکن پلاؤ",
     items: [
-      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Single without kabab", price: "Rs. 430", image: heroPulao },
-      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Single Choice", price: "Rs. 510", image: heroPulao },
-      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Single", price: "Rs. 500", image: heroPulao },
-      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Special without kabab", price: "Rs. 580", image: heroPulao },
-      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Special Choice", price: "Rs. 670", image: pulaoSpecial },
+      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Single without kabab", price: "Rs. 430", image: pulaoSingleNoKabab },
+      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Single Choice", price: "Rs. 510", image: pulaoSingleChoice },
+      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Single", price: "Rs. 500", image: pulaoSingle },
+      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Special without kabab", price: "Rs. 580", image: pulaoSpecialNoKabab },
+      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Special Choice", price: "Rs. 670", image: pulaoSpecialChoice },
       { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Special", price: "Rs. 650", image: pulaoSpecial },
     ],
   },
