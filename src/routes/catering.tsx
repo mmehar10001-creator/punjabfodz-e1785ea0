@@ -45,7 +45,10 @@ function CateringPage() {
                 {degMenu.map((d, i) => (
                   <tr key={i} className="border-t border-border hover:bg-card/50 transition-colors">
                     <td className="p-5 font-serif text-lg">
-                      {d.name}
+                      <div className="flex items-baseline gap-3 flex-wrap">
+                        <span>{d.name}</span>
+                        <span className="text-base text-foreground/60" lang="ur" dir="rtl">{d.urdu}</span>
+                      </div>
                       <p className="md:hidden text-xs text-muted-foreground italic mt-1">{d.qty}</p>
                     </td>
                     <td className="p-5 text-muted-foreground text-sm hidden md:table-cell">{d.qty}</td>
