@@ -1,4 +1,5 @@
 import heroPulao from "@/assets/hero-pulao.jpg";
+import pulaoSpecial from "@/assets/chicken-pulao-special.jpg";
 import channaPulao from "@/assets/channa-pulao.jpg";
 import simplePulao from "@/assets/simple-pulao.jpg";
 import pulaoKabab from "@/assets/pulao-kabab.jpg";
@@ -23,8 +24,8 @@ export const menu: MenuSection[] = [
       { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Single Choice", price: "Rs. 510", image: heroPulao },
       { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Single", price: "Rs. 500", image: heroPulao },
       { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Special without kabab", price: "Rs. 580", image: heroPulao },
-      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Special Choice", price: "Rs. 670", image: heroPulao },
-      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Special", price: "Rs. 650", image: heroPulao },
+      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Special Choice", price: "Rs. 670", image: pulaoSpecial },
+      { name: "Chicken Pulao", urdu: "چکن پلاؤ", desc: "Special", price: "Rs. 650", image: pulaoSpecial },
     ],
   },
   {
