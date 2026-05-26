@@ -72,6 +72,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "google-site-verification", content: "T42h8IlQTd5EpiSqU8HhIIzdAbluNuIjBQSmFtyw2q8" },
       { title: "Punjab Foods — Pulao & Kabab, Rawalpindi" },
       { name: "description", content: "Authentic Pulao, Roast, Kabab and catering Degs from Punjab Foods, Rawalpindi." },
       { name: "author", content: "Punjab Foods" },
