@@ -40,9 +40,9 @@ function MenuPage() {
                   <p className="mt-3 text-xl text-foreground/70" lang="ur" dir="rtl">{section.urdu}</p>
                 )}
               </div>
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {section.items.map((it, i) => (
-                  <article key={i} className="group bg-card border border-border overflow-hidden flex flex-col">
+                  <article key={i} className="group bg-card border border-border rounded-lg overflow-hidden flex flex-col shadow-sm hover:shadow-lg transition-shadow">
                     {it.image && (
                       <div className="aspect-[4/3] overflow-hidden bg-secondary">
                         <img
@@ -55,17 +55,21 @@ function MenuPage() {
                         />
                       </div>
                     )}
-                    <div className="p-5 flex-1 flex flex-col">
-                      <div className="flex items-baseline justify-between gap-3">
-                        <h3 className="font-serif text-xl">{it.name}</h3>
-                        <p className="text-primary font-medium whitespace-nowrap">{it.price}</p>
-                      </div>
+                    <div className="p-6 flex-1 flex flex-col gap-2">
+                      <h3 className="font-serif text-2xl font-semibold text-foreground leading-tight">
+                        {it.name}
+                      </h3>
                       {it.urdu && (
-                        <p className="text-lg text-foreground/70 mt-1" lang="ur" dir="rtl">{it.urdu}</p>
+                        <p className="text-2xl text-foreground font-medium" lang="ur" dir="rtl">
+                          {it.urdu}
+                        </p>
                       )}
                       {it.desc && (
-                        <p className="text-sm text-muted-foreground italic mt-2">{it.desc}</p>
+                        <p className="text-base text-muted-foreground">{it.desc}</p>
                       )}
+                      <div className="mt-auto pt-3 border-t border-border/60">
+                        <p className="text-2xl font-bold text-primary">{it.price}</p>
+                      </div>
                     </div>
                   </article>
                 ))}
