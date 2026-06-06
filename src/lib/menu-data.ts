@@ -1,18 +1,19 @@
-import pulaoSingleNoKabab from "@/assets/pulao-single-nokabab.jpg";
-import pulaoSingleChoice from "@/assets/pulao-single-choice.jpg";
-import pulaoSingle from "@/assets/pulao-single.jpg";
-import pulaoSpecialNoKabab from "@/assets/pulao-special-nokabab.jpg";
-import pulaoSpecialChoice from "@/assets/pulao-special-choice.jpg";
-import pulaoSpecial from "@/assets/pulao-special.jpg";
+import pulaoSingleNoKabab from "@/assets/real-pulao-special-nokabab.jpg";
+import pulaoSingleChoice from "@/assets/real-pulao-single-choice.jpg";
+import pulaoSingle from "@/assets/real-pulao-single-choice.jpg";
+import pulaoSpecialNoKabab from "@/assets/real-pulao-special-nokabab.jpg";
+import pulaoSpecialChoice from "@/assets/real-pulao-special-choice.jpg";
+import pulaoSpecial from "@/assets/real-pulao-special-choice.jpg";
 import channaPulao from "@/assets/channa-pulao.jpg";
-import simplePulao from "@/assets/simple-pulao.jpg";
-import pulaoKabab from "@/assets/pulao-kabab.jpg";
+import simplePulao from "@/assets/real-simple-pulao.jpg";
+import pulaoKabab from "@/assets/real-pulao-kabab.jpg";
 import channay from "@/assets/channay.jpg";
 import salad from "@/assets/salad.jpg";
 import raita from "@/assets/raita.jpg";
-import roast from "@/assets/chicken-roast.jpg";
-import chickenPiece from "@/assets/chicken-piece.jpg";
-import kabab from "@/assets/kabab.jpg";
+import roastHalf from "@/assets/real-roast-half.jpg";
+import roastFull from "@/assets/real-roast-full.jpg";
+import chickenPiece from "@/assets/real-chicken-piece.jpg";
+import kabab from "@/assets/real-shami-kabab.jpg";
 import zarda from "@/assets/zarda.jpg";
 import softDrink from "@/assets/soft-drink.jpg";
 
@@ -48,8 +49,8 @@ export const menu: MenuSection[] = [
     title: "Roast & Kabab",
     urdu: "روسٹ اور کباب",
     items: [
-      { name: "Chicken Roast", urdu: "چکن روسٹ", desc: "Half", price: "Rs. 700", image: roast },
-      { name: "Chicken Roast", urdu: "چکن روسٹ", desc: "Full", price: "Rs. 1300", image: roast },
+      { name: "Chicken Roast", urdu: "چکن روسٹ", desc: "Half", price: "Rs. 700", image: roastHalf },
+      { name: "Chicken Roast", urdu: "چکن روسٹ", desc: "Full", price: "Rs. 1300", image: roastFull },
       { name: "Chicken Piece", urdu: "چکن پیس", desc: "1/8", price: "Rs. 180", image: chickenPiece },
       { name: "Shami Kabab", urdu: "شامی کباب", desc: "Per Dozen", price: "Rs. 540", image: kabab },
     ],
