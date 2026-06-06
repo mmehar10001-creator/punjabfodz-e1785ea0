@@ -21,9 +21,9 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   const featured = [
-    { name: "Chicken Pulao", price: "from Rs. 430", img: hero },
-    { name: "Chicken Roast", price: "from Rs. 700", img: roast },
-    { name: "Shami Kabab", price: "Rs. 540 / dozen", img: kabab },
+    { name: "Chicken Pulao", price: "from Rs. 430", img: realPulao },
+    { name: "Chicken Roast", price: "from Rs. 700", img: realRoast },
+    { name: "Shami Kabab", price: "Rs. 540 / dozen", img: realKabab },
     { name: "Zarda", price: "Rs. 150", img: zarda },
   ];
   return (
