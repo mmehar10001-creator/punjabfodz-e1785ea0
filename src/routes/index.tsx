@@ -2,9 +2,10 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { menu } from "@/lib/menu-data";
 import hero from "@/assets/hero-pulao.jpg";
-import roast from "@/assets/chicken-roast.jpg";
+import realPulao from "@/assets/real-pulao-special-nokabab.jpg";
+import realRoast from "@/assets/real-roast-half.jpg";
+import realKabab from "@/assets/real-shami-kabab.jpg";
 import zarda from "@/assets/zarda.jpg";
-import kabab from "@/assets/kabab.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -20,9 +21,9 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   const featured = [
-    { name: "Chicken Pulao", price: "from Rs. 430", img: hero },
-    { name: "Chicken Roast", price: "from Rs. 700", img: roast },
-    { name: "Shami Kabab", price: "Rs. 540 / dozen", img: kabab },
+    { name: "Chicken Pulao", price: "from Rs. 430", img: realPulao },
+    { name: "Chicken Roast", price: "from Rs. 700", img: realRoast },
+    { name: "Shami Kabab", price: "Rs. 540 / dozen", img: realKabab },
     { name: "Zarda", price: "Rs. 150", img: zarda },
   ];
   return (
@@ -118,7 +119,7 @@ function Index() {
 
       {/* Catering CTA */}
       <section className="relative py-32 px-6 overflow-hidden">
-        <img src={roast} alt="" className="absolute inset-0 h-full w-full object-cover opacity-25" loading="lazy" />
+        <img src={realRoast} alt="" className="absolute inset-0 h-full w-full object-cover opacity-25" loading="lazy" />
         <div className="absolute inset-0 bg-background/70" />
         <div className="relative z-10 mx-auto max-w-3xl text-center">
           <p className="text-xs tracking-[0.4em] uppercase text-primary mb-6">Weddings · Events · Functions</p>
