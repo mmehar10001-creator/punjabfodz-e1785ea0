@@ -119,7 +119,7 @@ function Index() {
 
       {/* Catering CTA */}
       <section className="relative py-32 px-6 overflow-hidden">
-        <img src={roast} alt="" className="absolute inset-0 h-full w-full object-cover opacity-25" loading="lazy" />
+        <img src={realRoast} alt="" className="absolute inset-0 h-full w-full object-cover opacity-25" loading="lazy" />
         <div className="absolute inset-0 bg-background/70" />
         <div className="relative z-10 mx-auto max-w-3xl text-center">
           <p className="text-xs tracking-[0.4em] uppercase text-primary mb-6">Weddings · Events · Functions</p>
